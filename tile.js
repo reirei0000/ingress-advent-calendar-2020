@@ -54,11 +54,11 @@
       img = document.createElement("img")
       img.style.width = `${scale | 0}px`;
       if (i >= max_mondai) {
-        img.src = `resources/${gamename}/bg.png`;
+        img.src = `resources/${gamename}/bg.jpg`;
         name = ""
         id = -1;
       } else {
-        img.src = `resources/${gamename}/${glyphs[v]['answer']}.png`;
+        img.src = `resources/${gamename}/${glyphs[v]['answer']}.jpg`;
         img.addEventListener('mousedown', function(e) { compare(e, glyphs[v]['answer']) }, false);
         img.addEventListener('touchstart', function(e) { compare(e, glyphs[v]['answer']) }, false);
         name = glyphs[v]['answer'];
