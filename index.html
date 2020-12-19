@@ -1,6 +1,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=1040px">
 <link rel="stylesheet" type="text/css" href="tile.css">
 <title>Ingress & Wayfarer Advent Calendar 2020 - 12/3</title>
 <script src="common.js"></script>
@@ -15,20 +16,19 @@
 <div id="titleboard">
 <center>
 これは <a href="https://adventar.org/calendars/5485">Ingress & Wayfarer Advent Calendar 2020</a> の3日目の記事です。
-<h1 class="center">非公式Ingressかるた(ver.2020) / グリフ タイムアタック</h1>
+<h3 class="center">「非公式Ingressかるた(ver.2020) & グリフ」タイムアタック</h3>
 <br>
-<br>
-<button id="btn_start">GAME START</button>
-<br>
-<br>
+<div id="btn_div">
+<input id="btn_glyph" type="radio" name="gamename" value="glyph">グリフ</input>
+<input id="btn_karuta" type="radio" name="gamename" value="ingresskaruta" checked="checked">非公式Ingressかるた</input>
+<button id="btn_start" class="kadomaru">GAME START</button>
+</div>
 <input id="btn_hint" type="checkbox" name="hint" checked>ヒント</input>
 <input id="btn_shuffle" type="checkbox" name="shuffle">シャッフル</input>
 <br>
-<input id="btn_glyph" type="radio" name="gamename" value="glyph">グリフ</input>
-<input id="btn_karuta" type="radio" name="gamename" value="ingresskaruta" checked="checked">非公式Ingressかるた</input>
 </div>
 </center>
-<h2><span id="question" class="center"></span></h2>
+<h3><span id="question" class="center"></span></h3>
 <span id="time" class="center">00:00:00.000</span>
 
 <div id="mainboard">

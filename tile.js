@@ -20,6 +20,9 @@
     console.log(touchtile)
     start_time = new Date()
 
+    elm_btn_div = document.getElementById('btn_div');
+    elm_btn_div.style.display = "none";
+
     elm_glyph = document.getElementById('btn_glyph');
     elm_karuta = document.getElementById('btn_karuta');
     elm_tatsuno = document.getElementById('btn_tatsuno');
